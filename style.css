@@ -1,0 +1,44 @@
+#gameCanvas {
+  box-shadow: 10px 10px 20px black;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  height: 100vh;
+  background: linear-gradient(0deg,
+  rgb(0, 0, 0) 0%,
+  rgb(0, 0, 0) 100%);
+}
+
+.vissza {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-size: 3.1em;
+  position: absolute;
+  left: 0;
+}
+.ujra {
+  color: rgb(78, 1, 141);
+  text-decoration: none;
+  font-size: 3.1em;
+  position: absolute;
+  right: 0;
+}
+
+
+h1 {
+  text-align: center;
+  font-family: comic sans MS;
+  color: rgb(0, 168, 190);
+}
+
+.kenyerszamlalo{
+  color: wheat;
+  font-family: sans-serif;
+  font-size: 25px;
+  margin-bottom: 50px;
+  position: absolute;
+  bottom: 0;
+}
